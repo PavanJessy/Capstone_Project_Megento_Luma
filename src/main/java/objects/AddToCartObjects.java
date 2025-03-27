@@ -21,7 +21,7 @@ public class AddToCartObjects extends BaseClass{
     @FindBy(xpath = "//div[contains(@class, 'swatch-option color')]")
     public List<WebElement> colorOptions;
 
-
+ 
     @FindBy(id = "qty")
     public WebElement quantityBox;
 

@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.WebElement;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import base.BaseClass;
@@ -47,6 +48,8 @@ public class MyAccount extends BaseClass {
             System.out.println("Exception in enterSearchQuery: " + e.getMessage());
         }
     }
+    
+    
     public static void selectSuggestion(String suggestion) {
         try {
 //        	Thread.sleep(4000);

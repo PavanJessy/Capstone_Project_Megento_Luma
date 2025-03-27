@@ -11,9 +11,9 @@ public class Utility {
 	          
 	            String filePath = System.getProperty("user.dir") + "\\src\\main\\resources\\Configure.properties";
 	            FileReader reader = new FileReader(filePath);
-	            Properties p = new Properties();
-	            p.load(reader);
-	            propertiesData = p.getProperty(data);   
+	            Properties prop = new Properties();
+	            prop.load(reader);
+	            propertiesData = prop.getProperty(data);   
 	        } catch (Exception e) {
 	            System.out.println("Utility - properties: " + e.getMessage());
 	        }

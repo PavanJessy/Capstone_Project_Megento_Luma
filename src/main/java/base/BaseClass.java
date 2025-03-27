@@ -19,7 +19,8 @@ public class BaseClass {
 	    public static Actions act;
 	    public static Select select;
 	    public static JavascriptExecutor js;
-	    //Method to initialize and lanch the broswer
+	    
+	    //Method to initialize and launch the browser
 	    public static void openBrowser() {
 	        try {
 	            String choice = Utility.properties("browser"); 
@@ -33,7 +34,7 @@ public class BaseClass {
 	            
 	           //Explicit timeout of 20 seconds
 	            wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-	            // Implicit wait of 10 secs for locating elements
+	            // Implicit wait of 10 sec for locating elements
 	            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	            driver.manage().window().maximize();
 

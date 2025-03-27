@@ -9,16 +9,21 @@ public class RegistrationPage extends BaseClass {
 
 	static RegistrationPageObjects obj;
  
-	// Enter first name in the firstName field
+	// Enter first name in the firstName field//Custum methods
 	public static void enterFirstName(String firstName) {
+		
 		try {
 			obj = new RegistrationPageObjects();
 			wait.until(ExpectedConditions.visibilityOf(obj.firstNameElement));
 			obj.firstNameElement.sendKeys(firstName);
-			System.out.println("Entered First Name: " + firstName);
+			System.out.println("Enter the first name : " + firstName);
+			
+			
 		} catch (Exception e) {
-			System.out.println("Exception in enterFirstName method: " + e);
+			// TODO: handle exception
+			System.out.println("Exception in the EnterFirstName: " + e);
 		}
+		
 	}
 
 	// Enter Last name in the LastName field

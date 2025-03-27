@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Mar 21 16:44:37 IST 2025</td>
+<td>Started on:</td><td>Thu Mar 27 14:04:33 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>174 seconds (174415 ms)</td>
+<tr><td>Total time:</td><td>817 seconds (817860 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,171 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNG.ShippingBoloSportWatchTest.user_enters_shipping_details()'><b>user_enters_shipping_details</b><br>Test class: testNG.ShippingBoloSportWatchTest</td>
+<td><div><pre>java.lang.AssertionError: Failed to enter shipping details: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[name=&apos;firstname&apos;]&quot;}
+  (Session info: chrome=134.0.6998.166)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e6394b1fdd3ed1fc7ff45e30c1d6f1f, findElement {using=css selector, value=[name=&apos;firstname&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\91767\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56966/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e6394b1fdd3ed1fc7ff45e30c1d6f1f
+	at testNG.ShippingBoloSportWatchTest.user_enters_shipping_details(ShippingBoloSportWatchTest.java:163)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1013957837", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1013957837'><pre>java.lang.AssertionError: Failed to enter shipping details: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[name=&apos;firstname&apos;]&quot;}
+  (Session info: chrome=134.0.6998.166)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e6394b1fdd3ed1fc7ff45e30c1d6f1f, findElement {using=css selector, value=[name=&apos;firstname&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\91767\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56966/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e6394b1fdd3ed1fc7ff45e30c1d6f1f
+	at org.testng.Assert.fail(Assert.java:111)
+	at testNG.ShippingBoloSportWatchTest.user_enters_shipping_details(ShippingBoloSportWatchTest.java:163)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>testNG.ShippingBoloSportWatchTest@3d246ea3</td></tr>
+<tr>
+<td title='testNG.ShippingBoloSportWatchTest.user_places_the_order()'><b>user_places_the_order</b><br>Test class: testNG.ShippingBoloSportWatchTest</td>
+<td><div><pre>java.lang.AssertionError: Error while placing the order: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@class,&apos;checkout&apos;) and contains(@title,&apos;Place Order&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\91767\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56966/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e6394b1fdd3ed1fc7ff45e30c1d6f1f
+	at testNG.ShippingBoloSportWatchTest.user_places_the_order(ShippingBoloSportWatchTest.java:194)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1955698249", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1955698249'><pre>java.lang.AssertionError: Error while placing the order: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@class,&apos;checkout&apos;) and contains(@title,&apos;Place Order&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\91767\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56966/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e6394b1fdd3ed1fc7ff45e30c1d6f1f
+	at org.testng.Assert.fail(Assert.java:111)
+	at testNG.ShippingBoloSportWatchTest.user_places_the_order(ShippingBoloSportWatchTest.java:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>11</td>
+<td>testNG.ShippingBoloSportWatchTest@3d246ea3</td></tr>
+<tr>
+<td title='testNG.ShippingBoloSportWatchTest.user_logs_out()'><b>user_logs_out</b><br>Test class: testNG.ShippingBoloSportWatchTest</td>
+<td><div><pre>java.lang.AssertionError: Error while logging out: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class=&apos;panel header&apos;]//button[@type=&apos;button&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\91767\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56966/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e6394b1fdd3ed1fc7ff45e30c1d6f1f
+	at testNG.ShippingBoloSportWatchTest.user_logs_out(ShippingBoloSportWatchTest.java:215)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace530750366", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace530750366'><pre>java.lang.AssertionError: Error while logging out: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class=&apos;panel header&apos;]//button[@type=&apos;button&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\91767\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56966/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e6394b1fdd3ed1fc7ff45e30c1d6f1f
+	at org.testng.Assert.fail(Assert.java:111)
+	at testNG.ShippingBoloSportWatchTest.user_logs_out(ShippingBoloSportWatchTest.java:215)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>10</td>
+<td>testNG.ShippingBoloSportWatchTest@3d246ea3</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,20 +241,60 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testRunner.ProductSearchAddToCartTestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.ProductSearchAddToCartTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check the Sign In functionality, auto-suggestion feature in search, and addition of product to the cart", "Checking Login, Product Search, and Adding Product to Cart"</td>
+<td title='testNG.ShippingBoloSportWatchTest.user_searches_for_bolo_sport_watch()'><b>user_searches_for_bolo_sport_watch</b><br>Test class: testNG.ShippingBoloSportWatchTest</td>
 <td></td>
-<td>88</td>
-<td>testRunner.ProductSearchAddToCartTestRunner@3e78b6a5</td></tr>
+<td>94</td>
+<td>testNG.ShippingBoloSportWatchTest@3d246ea3</td></tr>
 <tr>
 <td title='testRunner.LoginTestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.LoginTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check the Login functionality with valid and invalid credentials", "Checking Login with Valid and Invalid Credentials"</td>
 <td></td>
-<td>57</td>
-<td>testRunner.LoginTestRunner@60db1c0e</td></tr>
+<td>83</td>
+<td>testRunner.LoginTestRunner@571c5681</td></tr>
+<tr>
+<td title='testNG.MultipleProducts.testAddRandomMenHoodiesToCartAndCheckout()'><b>testAddRandomMenHoodiesToCartAndCheckout</b><br>Test class: testNG.MultipleProducts</td>
+<td></td>
+<td>63</td>
+<td>testNG.MultipleProducts@301eda63</td></tr>
+<tr>
+<td title='testNG.ShippingBoloSportWatchTest.clearCartIfNotEmpty()'><b>clearCartIfNotEmpty</b><br>Test class: testNG.ShippingBoloSportWatchTest</td>
+<td></td>
+<td>14</td>
+<td>testNG.ShippingBoloSportWatchTest@3d246ea3</td></tr>
+<tr>
+<td title='testNG.ShippingBoloSportWatchTest.user_proceeds_to_checkout()'><b>user_proceeds_to_checkout</b><br>Test class: testNG.ShippingBoloSportWatchTest</td>
+<td></td>
+<td>24</td>
+<td>testNG.ShippingBoloSportWatchTest@3d246ea3</td></tr>
+<tr>
+<td title='testRunner.ProductSearchAddToCartTestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.ProductSearchAddToCartTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check the Sign In functionality, auto-suggestion feature in search, and addition of product to the cart", "Checking Login, Product Search, and Adding Product to Cart"</td>
+<td></td>
+<td>124</td>
+<td>testRunner.ProductSearchAddToCartTestRunner@488d1cd7</td></tr>
 <tr>
 <td title='testRunner.UserRegistrationTestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.UserRegistrationTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check the Creating New Customer Account page with valid and invalid data", "Checking User Registration"</td>
 <td></td>
-<td>26</td>
-<td>testRunner.UserRegistrationTestRunner@10289886</td></tr>
+<td>71</td>
+<td>testRunner.UserRegistrationTestRunner@41294f8</td></tr>
+<tr>
+<td title='testNG.ShippingBoloSportWatchTest.user_views_and_edits_cart()'><b>user_views_and_edits_cart</b><br>Test class: testNG.ShippingBoloSportWatchTest</td>
+<td></td>
+<td>4</td>
+<td>testNG.ShippingBoloSportWatchTest@3d246ea3</td></tr>
+<tr>
+<td title='testRunner.LogoutTestRunner.runScenario()'><b>runScenario</b><br>Test class: testRunner.LogoutTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To check the Logout functionality", "Checking Logout Functionality"</td>
+<td></td>
+<td>224</td>
+<td>testRunner.LogoutTestRunner@341814d3</td></tr>
+<tr>
+<td title='testNG.ProceedToCheckout.testAddToCartAndProceedToCheckout()'><b>testAddToCartAndProceedToCheckout</b><br>Test class: testNG.ProceedToCheckout</td>
+<td></td>
+<td>37</td>
+<td>testNG.ProceedToCheckout@56c4278e</td></tr>
+<tr>
+<td title='testNG.ShippingBoloSportWatchTest.user_adds_bolo_sport_watch_to_cart()'><b>user_adds_bolo_sport_watch_to_cart</b><br>Test class: testNG.ShippingBoloSportWatchTest</td>
+<td></td>
+<td>11</td>
+<td>testNG.ShippingBoloSportWatchTest@3d246ea3</td></tr>
 </table><p>
 </body>
 </html>

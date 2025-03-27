@@ -3,13 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testRunner.UserRegistrationTestRunner">
+      <class name="testNG.ShippingBoloSportWatchTest">
         <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
+          <include name="setup"/>
+          <include name="user_places_the_order"/>
+          <include name="teardown"/>
+          <include name="user_logs_out"/>
+          <include name="user_searches_for_bolo_sport_watch"/>
+          <include name="user_enters_shipping_details"/>
         </methods>
-      </class> <!-- testRunner.UserRegistrationTestRunner -->
+      </class> <!-- testNG.ShippingBoloSportWatchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/reportngClass.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/reportngClass.js"></script>
+  <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" src="js/json-min.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$('.tablesorter').tablesorter({sortList: [[0,0]]});
+	});
+  </script>
+</head>
+<body onload="doParse(); return false;" onkeypress="collapseExpand();">
+<div class="well well-large">
+	<b>Test Info</>
+	<table class="table">
+	  <tr>
+	    <th>Test Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Test name</span>
+			</div>
+	    </th>
+	    <th id="testNameId">Test</th> 
+	  </tr>
+	  <tr>
+	    <th>Test Class : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassId')"/>
+	    		<span class="tooltiptextCustom">Copy full path Class name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Class name</span>
+			</div>
+	    </th> 
+	    <th id="testClassId">testRunner.UserRegistrationTestRunner<br>testRunner.LoginTestRunner<br>testRunner.ProductSearchAddToCartTestRunner<br>testNG.ProceedToCheckout<br>testNG.MultipleProducts<br>testNG.ShippingBoloSportWatchTest<br>testRunner.LogoutTestRunner<br></th>
+	    <th id="testClassNameId" hidden="true">UserRegistrationTestRunner<br>LoginTestRunner<br>ProductSearchAddToCartTestRunner<br>ProceedToCheckout<br>MultipleProducts<br>ShippingBoloSportWatchTest<br>LogoutTestRunner<br></th>
+	  </tr>
+	  <tr>
+	    <th>Suite Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite name</span>
+			</div>
+		</th>
+	    <th id="suiteNameId">Suite</th>
+	  </tr>
+	  <tr>
+	    <th>Suite XML : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite full path name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite file name</span>
+			</div>
+	    </th> 
+	  	<th id="suiteXMLId">C:\Users\91767\git\Capstone_Pavan\testng.xml</th>
+	  	<th id="suiteXMLNameId" hidden="true">testng.xml</th>
+	  </tr>
+	  	  <tr>
+	    <th>Total Time : </th>
+	    <th></th>
+	    <th>00:13:37</th> 
+	  </tr>
+	  <tr>
+	    <th>Total Steps : </th>
+	   	<th></th>
+	    <th>14</th> 
+	  </tr>
+	  <tr>
+	    <th>Status : </th>
+	    <th></th>
+	    <th><font color="red">FAIL</font></th> 
+	  </tr>
+	</table>
+</div>
+<div class="well well-large">
+	<div class="row">
+		<div class="col-xs-12">
+	        <div class="text-right">
+	            <button id="hideResults" type="button" class="btn-danger" onclick="collapseExpand(this);" onkeypress="collapseExpand(this);" class="btn pull-right" title="Click or Press Any key to collapse/expand All Failed Tests and Configuration Methods">Show Only Failures</button>
+	        </div>
+	    </div>
+	</div>
+	<table class="tablesorter" border="1">
+		<thead>
+		<tr>
+		<th class="headerTime">Time</th>
+		<th class="headerTime" width="12%">Info</th>
+		<th class="headerTime" width="88%">Test</th>
+		</tr>
+		</thead>
+		<tbody>
+		
+				
+				
+																																				
+											<tr>
+	<td class="time">1743065056399</td>
+	<td class="header failed" colspan="4" onClick="toggleElement('96ea26b7-321d-43be-917b-6a5a332f6a58','block');changeSingleIcon('span-96ea26b7-321d-43be-917b-6a5a332f6a58');" title="Click to expand/collapse" style="cursor: pointer;">
+	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testNG.ShippingBoloSportWatchTest</div>
+	<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-96ea26b7-321d-43be-917b-6a5a332f6a58' class="glyphicon glyphicon-menu-down"></span></div>
+	</td>
+	</tr>
+<tr>
+	<td class="time">1743065056399</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>user_logs_out</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>7</font></span><br>
+						<span class="duration"><b>Duration: </b>10.518s</span><br>
+	</td>
+	<td class="result">
+						<div class="noCollapse" id="96ea26b7-321d-43be-917b-6a5a332f6a58" style="display: block;">
+						<a href="javascript:toggleElement('exception-96ea26b7-321d-43be-917b-6a5a332f6a58','block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Error while logging out: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class=&apos;panel header&apos;]//button[@type=&apos;button&apos;] (tried for 10 second(s) with 500 milliseconds interval)<br/>
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;<br/>
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\91767\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56966/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 2e6394b1fdd3ed1fc7ff45e30c1d6f1f</b></a><br/>
+		<div class="stackTrace" id="exception-96ea26b7-321d-43be-917b-6a5a332f6a58">
+					org.testng.Assert.fail(Assert.java:111)<br/>
+					testNG.ShippingBoloSportWatchTest.user_logs_out(ShippingBoloSportWatchTest.java:215)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br/>
+					java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:568)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:739)<br/>
+					org.testng.TestRunner.run(TestRunner.java:614)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:312)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1112)<br/>
+					org.testng.TestNG.run(TestNG.java:1079)<br/>
+					org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br/>
+					org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)<br/>
+					org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+					<tr>
+	<td class="time">1743065045083</td>
+	<td class="header failed" colspan="4" onClick="toggleElement('50424e5d-6ffe-4012-9b99-0923fe38ed10','block');changeSingleIcon('span-50424e5d-6ffe-4012-9b99-0923fe38ed10');" title="Click to expand/collapse" style="cursor: pointer;">
+	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testNG.ShippingBoloSportWatchTest</div>
+	<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-50424e5d-6ffe-4012-9b99-0923fe38ed10' class="glyphicon glyphicon-menu-down"></span></div>
+	</td>
+	</tr>
+<tr>
+	<td class="time">1743065045083</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>user_places_the_order</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>6</font></span><br>
+						<span class="duration"><b>Duration: </b>11.310s</span><br>
+	</td>
+	<td class="result">
+						<div class="noCollapse" id="50424e5d-6ffe-4012-9b99-0923fe38ed10" style="display: block;">
+						<a href="javascript:toggleElement('exception-50424e5d-6ffe-4012-9b99-0923fe38ed10','block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Error while placing the order: Expected condition failed: waiting for element to be clickable: By.xpath: //button[contains(@class,&apos;checkout&apos;) and contains(@title,&apos;Place Order&apos;)] (tried for 10 second(s) with 500 milliseconds interval)<br/>
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;<br/>
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\91767\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56966/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 2e6394b1fdd3ed1fc7ff45e30c1d6f1f</b></a><br/>
+		<div class="stackTrace" id="exception-50424e5d-6ffe-4012-9b99-0923fe38ed10">
+					org.testng.Assert.fail(Assert.java:111)<br/>
+					testNG.ShippingBoloSportWatchTest.user_places_the_order(ShippingBoloSportWatchTest.java:194)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br/>
+					java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:568)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:739)<br/>
+					org.testng.TestRunner.run(TestRunner.java:614)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:312)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1112)<br/>
+					org.testng.TestNG.run(TestNG.java:1079)<br/>
+					org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br/>
+					org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)<br/>
+					org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+					<tr>
+	<td class="time">1743065044833</td>
+	<td class="header failed" colspan="4" onClick="toggleElement('85f82090-6a10-4b96-82c7-e9a060e59fb0','block');changeSingleIcon('span-85f82090-6a10-4b96-82c7-e9a060e59fb0');" title="Click to expand/collapse" style="cursor: pointer;">
+	<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testNG.ShippingBoloSportWatchTest</div>
+	<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-85f82090-6a10-4b96-82c7-e9a060e59fb0' class="glyphicon glyphicon-menu-down"></span></div>
+	</td>
+	</tr>
+<tr>
+	<td class="time">1743065044833</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>user_enters_shipping_details</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>5</font></span><br>
+						<span class="duration"><b>Duration: </b>0.235s</span><br>
+	</td>
+	<td class="result">
+						<div class="noCollapse" id="85f82090-6a10-4b96-82c7-e9a060e59fb0" style="display: block;">
+						<a href="javascript:toggleElement('exception-85f82090-6a10-4b96-82c7-e9a060e59fb0','block')" title="Click to expand/collapse"><b>java.lang.AssertionError: Failed to enter shipping details: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[name=&apos;firstname&apos;]&quot;}<br/>
+&nbsp; (Session info: chrome=134.0.6998.166)<br/>
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception<br/>
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;<br/>
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Command: [2e6394b1fdd3ed1fc7ff45e30c1d6f1f, findElement {using=css selector, value=[name=&apos;firstname&apos;]}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.166, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\91767\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56966/devtoo..., se:cdpVersion: 134.0.6998.166, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 2e6394b1fdd3ed1fc7ff45e30c1d6f1f</b></a><br/>
+		<div class="stackTrace" id="exception-85f82090-6a10-4b96-82c7-e9a060e59fb0">
+					org.testng.Assert.fail(Assert.java:111)<br/>
+					testNG.ShippingBoloSportWatchTest.user_enters_shipping_details(ShippingBoloSportWatchTest.java:163)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br/>
+					java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br/>
+					java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br/>
+					java.base/java.lang.reflect.Method.invoke(Method.java:568)<br/>
+					org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)<br/>
+					org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)<br/>
+					org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)<br/>
+					org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)<br/>
+					org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)<br/>
+					org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)<br/>
+					java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br/>
+					org.testng.TestRunner.privateRun(TestRunner.java:739)<br/>
+					org.testng.TestRunner.run(TestRunner.java:614)<br/>
+					org.testng.SuiteRunner.runTest(SuiteRunner.java:421)<br/>
+					org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)<br/>
+					org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)<br/>
+					org.testng.SuiteRunner.run(SuiteRunner.java:312)<br/>
+					org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br/>
+					org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br/>
+					org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)<br/>
+					org.testng.TestNG.runSuitesLocally(TestNG.java:1208)<br/>
+					org.testng.TestNG.runSuites(TestNG.java:1112)<br/>
+					org.testng.TestNG.run(TestNG.java:1079)<br/>
+					org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br/>
+					org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)<br/>
+					org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)<br/>
+						</div>
+		</td>
+	</div>
+</tr>
+						
+				
+												<tr>
+			<td class="time">1743064819566</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('cc517dbf-c02b-44b9-ae4a-f8657e39076b','block');changeSingleIcon('span-cc517dbf-c02b-44b9-ae4a-f8657e39076b');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testNG.MultipleProducts</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-cc517dbf-c02b-44b9-ae4a-f8657e39076b' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1743064819566</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>testAddRandomMenHoodiesToCartAndCheckout</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>63.874s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="cc517dbf-c02b-44b9-ae4a-f8657e39076b" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1743064782011</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('9493e9a8-a2d4-4e87-be35-0571ab3c3008','block');changeSingleIcon('span-9493e9a8-a2d4-4e87-be35-0571ab3c3008');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testNG.ProceedToCheckout</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-9493e9a8-a2d4-4e87-be35-0571ab3c3008' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1743064782011</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>testAddToCartAndProceedToCheckout</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>37.199s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="9493e9a8-a2d4-4e87-be35-0571ab3c3008" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1743065004660</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('4d2577b0-c59f-4811-a479-40bd95618a26','block');changeSingleIcon('span-4d2577b0-c59f-4811-a479-40bd95618a26');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testNG.ShippingBoloSportWatchTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-4d2577b0-c59f-4811-a479-40bd95618a26' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1743065004660</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>user_adds_bolo_sport_watch_to_cart</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>2</font></span><br>
+						<span class="duration"><b>Duration: </b>11.209s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="4d2577b0-c59f-4811-a479-40bd95618a26" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1743065015870</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('45cad9b3-bc81-4196-a92b-9eb9c139a094','block');changeSingleIcon('span-45cad9b3-bc81-4196-a92b-9eb9c139a094');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testNG.ShippingBoloSportWatchTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-45cad9b3-bc81-4196-a92b-9eb9c139a094' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1743065015870</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>user_views_and_edits_cart</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>3</font></span><br>
+						<span class="duration"><b>Duration: </b>4.627s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="45cad9b3-bc81-4196-a92b-9eb9c139a094" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1743065020502</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('6e1c8877-64e3-4317-91c9-b5761ab9fa2a','block');changeSingleIcon('span-6e1c8877-64e3-4317-91c9-b5761ab9fa2a');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testNG.ShippingBoloSportWatchTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-6e1c8877-64e3-4317-91c9-b5761ab9fa2a' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1743065020502</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>user_proceeds_to_checkout</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>4</font></span><br>
+						<span class="duration"><b>Duration: </b>24.322s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="6e1c8877-64e3-4317-91c9-b5761ab9fa2a" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1743064895575</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('fcee5cec-4653-4348-a104-77172e3861f5','block');changeSingleIcon('span-fcee5cec-4653-4348-a104-77172e3861f5');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testNG.ShippingBoloSportWatchTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-fcee5cec-4653-4348-a104-77172e3861f5' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1743064895575</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>clearCartIfNotEmpty</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>14.541s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="fcee5cec-4653-4348-a104-77172e3861f5" style="display: block;">
+					</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1743064910116</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('b4dcc90b-96c7-460c-9dc7-69ab175bd0af','block');changeSingleIcon('span-b4dcc90b-96c7-460c-9dc7-69ab175bd0af');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testNG.ShippingBoloSportWatchTest</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-b4dcc90b-96c7-460c-9dc7-69ab175bd0af' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1743064910116</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>user_searches_for_bolo_sport_watch</span><br>
+			<span class="description"><b>Description: </b></span><br>
+				<span class="description"><b>Priority: </b><font color='blue'>1</font></span><br>
+						<span class="duration"><b>Duration: </b>94.542s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="b4dcc90b-96c7-460c-9dc7-69ab175bd0af" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1743064559885</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('628b554f-8d9d-4b83-a480-856fdce6023d','block');changeSingleIcon('span-628b554f-8d9d-4b83-a480-856fdce6023d');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testRunner.LoginTestRunner</div>
+			<div style="float:right;">@Test @ with DataProvider : ["scenarios"] &nbsp;&nbsp;<span id='span-628b554f-8d9d-4b83-a480-856fdce6023d' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1743064559885</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>runScenario</span><br>
+			<span class="description"><b>Description: </b>Runs Cucumber Scenarios</span><br>
+						<span class="description"><b>Groups: </b><font color='green'>cucumber</font></span><br>
+				<span class="duration"><b>Duration: </b>83.882s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"To check the Login functionality with valid and invalid credentials", "Checking Login with Valid and Invalid Credentials"</span><br>
+				<div class="stackTrace" id="628b554f-8d9d-4b83-a480-856fdce6023d" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1743065067438</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('9032a949-f31f-4a50-aafa-bf94a7500c27','block');changeSingleIcon('span-9032a949-f31f-4a50-aafa-bf94a7500c27');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testRunner.LogoutTestRunner</div>
+			<div style="float:right;">@Test @ with DataProvider : ["scenarios"] &nbsp;&nbsp;<span id='span-9032a949-f31f-4a50-aafa-bf94a7500c27' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1743065067438</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>runScenario</span><br>
+			<span class="description"><b>Description: </b>Runs Cucumber Scenarios</span><br>
+						<span class="description"><b>Groups: </b><font color='green'>cucumber</font></span><br>
+				<span class="duration"><b>Duration: </b>224.077s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"To check the Logout functionality", "Checking Logout Functionality"</span><br>
+				<div class="stackTrace" id="9032a949-f31f-4a50-aafa-bf94a7500c27" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1743064643829</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('4c26426d-4500-4642-8cb4-b342090e6b48','block');changeSingleIcon('span-4c26426d-4500-4642-8cb4-b342090e6b48');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testRunner.ProductSearchAddToCartTestRunner</div>
+			<div style="float:right;">@Test @ with DataProvider : ["scenarios"] &nbsp;&nbsp;<span id='span-4c26426d-4500-4642-8cb4-b342090e6b48' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1743064643829</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>runScenario</span><br>
+			<span class="description"><b>Description: </b>Runs Cucumber Scenarios</span><br>
+						<span class="description"><b>Groups: </b><font color='green'>cucumber</font></span><br>
+				<span class="duration"><b>Duration: </b>124.763s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"To check the Sign In functionality, auto-suggestion feature in search, and addition of product to the cart", "Checking Login, Product Search, and Adding Product to Cart"</span><br>
+				<div class="stackTrace" id="4c26426d-4500-4642-8cb4-b342090e6b48" style="display: block;">
+					</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1743064488541</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('7af02bcb-e932-42fd-8dc9-740b5952cef5','block');changeSingleIcon('span-7af02bcb-e932-42fd-8dc9-740b5952cef5');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>testRunner.UserRegistrationTestRunner</div>
+			<div style="float:right;">@Test @ with DataProvider : ["scenarios"] &nbsp;&nbsp;<span id='span-7af02bcb-e932-42fd-8dc9-740b5952cef5' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1743064488541</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>runScenario</span><br>
+			<span class="description"><b>Description: </b>Runs Cucumber Scenarios</span><br>
+						<span class="description"><b>Groups: </b><font color='green'>cucumber</font></span><br>
+				<span class="duration"><b>Duration: </b>71.170s</span><br>
+	</td>
+	<td class="result">
+					<i>Method arguments: </i><span class="arguments">"To check the Creating New Customer Account page with valid and invalid data", "Checking User Registration"</span><br>
+				<div class="stackTrace" id="7af02bcb-e932-42fd-8dc9-740b5952cef5" style="display: block;">
+					</td>
+	</div>
+</tr>
+					  
+	</tbody>
+	</table>
+</div>
+</body>
+</html>

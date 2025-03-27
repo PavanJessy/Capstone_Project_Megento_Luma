@@ -13,7 +13,7 @@ public class MyAccountObject extends BaseClass {
         PageFactory.initElements(driver, this);
     }
 
-    // ✅ Fixed XPath for searchItem
+    //  Fixed XPath for searchItem
     public By myAccountText = By.xpath("//span[@class='base']");
     public By searchBox = By.xpath("//input[@id='search']");
     public By searchItem = By.xpath("//ul[@role='listbox']/li/span[1]"); // ✅ Fixed XPath
@@ -25,7 +25,7 @@ public class MyAccountObject extends BaseClass {
     @FindBy(xpath = "//input[@id='search']")
     public WebElement searchBoxElement;
 
-    // ✅ `searchList` will now be correctly populated
+    //  `searchList` will now be correctly populated
     @FindBy(xpath = "//ul[@role='listbox']/li/span[1]")
     public List<WebElement> searchList;
 

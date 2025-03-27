@@ -17,5 +17,5 @@ Feature: Checking User Registration
 
     Examples:  
       | FirstName | LastName | InvalidEmail          | Password    | ConfirmPassword | ValidEmail               | Message                 												    | error																												| 
-      | Anantha    | Pavan    | 	qkjbqke			         | Pass@1234   | Pass@1234	     | pavan.anantha@gmail.com    |Thank you for registering with Main Website Store.   | Please enter a valid email address (Ex: johndoe@domain.com).| 
+      | Anantha    | Pavan    | 	qkjbqke			         | Pass@1234   | Pass@1234	     | pavan.anantha@gmail.com    |Thank you for registering with Main Website Store.   | Please enter a valid email address (Ex: Pavankumar@tenecious.com).| 
     

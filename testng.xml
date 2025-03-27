@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-  <classes>
-  <class name="testRunner.UserRegistrationTestRunner"/>
-  <class name="testRunner.LoginTestRunner"/>
-  <class name="testRunner.ProductSearchAddToCartTestRunner"/>
-  
-  </classes>
-  </test> <!-- Test -->
-  <listeners>
+	<test thread-count="5" name="Test">
+
+		<parameter name="browser" value="chrome" />
+		<parameter name="url"
+			value="https://magento.softwaretestingboard.com/customer/account/login/" />
+		<parameter name="email" value="pavan.anantha@gmail.com" />
+		<parameter name="password" value="Pass@1234" />
+		<classes>
+			<class name="testRunner.UserRegistrationTestRunner" />
+			<class name="testRunner.LoginTestRunner" />
+			<class name="testRunner.ProductSearchAddToCartTestRunner" />
+			<class name="testNG.ProceedToCheckout" />
+			<class name="testNG.MultipleProducts" />
+			<class name="testNG.ShippingBoloSportWatchTest"></class>
+			<class name="testRunner.LogoutTestRunner" />
+
+
+		</classes>
+	</test> <!-- Test -->
+	<listeners>
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
 	</listeners>
 </suite> <!-- Suite -->
+      
